@@ -1,0 +1,53 @@
+{
+    "author": "r0cool01@gmail.com",
+    "dependencies": {
+        "pebble-clay": "^1.0.2"
+    },
+    "keywords": [],
+    "name": "kamet-hive",
+    "pebble": {
+        "capabilities": [
+            "configurable",
+            "health"
+        ],
+        "displayName": "KaMet Hive",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "Highlight",
+            "Standby",
+            "Background"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/hive_bkgd.png",
+                    "name": "IMG_BKGD",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "fonts/square_sans_serif_7.ttf",
+                    "name": "FONT_SQUARE_24",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/square_sans_serif_7.ttf",
+                    "name": "FONT_SQUARE_20",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt"
+        ],
+        "uuid": "7b455207-292f-4c4d-9337-b5d90b4104a1",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
